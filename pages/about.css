@@ -2,10 +2,6 @@ img {
   width: 100%;
 }
 
-h1 {
-  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-}
-
 .logo {
   justify-content: center;
   margin-top: 10px;
@@ -16,32 +12,6 @@ h1 {
 
 .navmen {
   margin: auto;
-}
-
-.title {
-  text-align: center;
-  padding: 10px;
-  border: 5px solid #000000;
-  margin-top: 20px;
-}
-
-h2 {
-  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-  text-align: center;
-}
-
-.contact-heading {
-  background-color: #F6F6F6;
-}
-
-.words {
-  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-  background-color: #F6F6F6;
-  border: 5px solid #000000;
-  text-align: center;
-}
-p {
-  margin: 10px;
 }
 
 footer {
@@ -80,23 +50,30 @@ li a:hover {
   background-color: #000000;
 }
 
-.container {
-  justify-content: center;
-}
-
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+h1 {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
-.service-list {
-  text-align: left;
+.title {
+  text-align: center;
+  padding: 10px;
+  border: 5px solid #000000;
+  margin-top: 20px;
+}
+
+.words {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  background-color: #F6F6F6;
+  border: 5px solid #000000;
+  text-align: center;
+}
+p {
+  margin: 10px;
+}
+
+.size {
+  width: 50%;
 }
 
 .words-2 {
@@ -106,9 +83,27 @@ li a:hover {
   text-align: center;
   margin-right: 20px;
 }
+.words-3 {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  background-color: #F6F6F6;
+  border: 5px solid #000000;
+  text-align: center;
+  margin-right: 20px;
+}
 
-.no-marks {
-  list-style-type: none;
+.short {
+  height: 600px;
+  width: 40%
+}
+
+.container {
+  justify-content: center;
+}
+
+.contact {
+  border: 5px solid #000000;
+  background-color: #59a43e;
+  text-align: center;
 }
 
 @media only screen and (max-width: 960px) {
@@ -116,44 +111,40 @@ li a:hover {
 }
 
 @media only screen and (min-width: 961px) {
+  .title {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
   .description {
     display: flex;
     flex: wrap;
     margin: 30px;
   }
-  .services{
+  .mo {
     display: flex;
     flex: wrap;
     margin: 30px;
-  }
-  .contact {
-    display: flex;
-    flex: wrap;
-    margin: 30px;
-  }
-  .title {
-    margin-left: 250px;
-    margin-right: 250px;
   }
   p {
-    font-size: 18pt;
-  }
-  h2 {
-    font-size: 36pt;
-  }
-  .words {
-    margin-left: 20px;
-  }
-  .food {
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
+    font-size: 17pt;
   }
   ul {
     font-size: 18pt;
   }
-  .size {
-    width: 50%;
+  .words {
+    margin-left: 20px;
+  }
+  .words-2 {
+    font-size: 17pt;
+  }
+  .words-3 {
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+  .contact {
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 50px;
   }
 }
