@@ -1,31 +1,24 @@
-img {
-  width: 100%;
-}
-
 h1 {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-  padding: 10px;
-  border: 5px solid #000000;
-  margin-left: 275px;
-  margin-right: 275px;
 }
 
 .logo {
   justify-content: center;
   margin-top: 10px;
-  margin: auto;
   width: 25%;
   margin-bottom: 10px;
 }
 
 .navmen {
   margin: auto;
-
 }
 
 .title {
   text-align: center;
   margin: 20px;
+  padding: 10px;
+  border: 5px solid #000000;
+  background-color: #F6F6F6;
 }
 
 h2 {
@@ -80,7 +73,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #cdf8da;
+  background-color: #000000;
 }
 
 .container {
@@ -91,16 +84,14 @@ li a:hover {
   .contact {
     border-top: 0px;
   }
-
 }
 
 @media only screen and (min-width: 961px) {
   .description {
     display: flex;
-  }
-  .photo{
-    width: 2500px;
+    flex: wrap;
     margin: 20px;
+    border: 10px solid #000000;
   }
   p {
     font-size: 18pt;
@@ -114,7 +105,7 @@ li a:hover {
   .food {
     margin-top: 30px;
     margin-left: 50px;
-    margin-right:50px;
+    margin-right: 50px;
     margin-bottom: 20px;
   }
   ul {
@@ -122,8 +113,5 @@ li a:hover {
   }
   .contact {
     margin: 20px;
-  }
-  .title {
-    margin: 40px;
   }
 }
