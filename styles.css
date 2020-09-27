@@ -6,15 +6,30 @@ h1 {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
+.navbar-brand img{
+  width: auto;
+  height: 60px !important;
+}
+
+.navbar-dark, .navbar-nav, .nav-link, .footer{
+  color:  rgba(0, 0, 0, 0.85);
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
+.bg-dark {
+  background-color: #68a16a !important;
+}
+
 .logo {
   justify-content: center;
   margin-top: 10px;
   width: 25%;
   margin-bottom: 10px;
-  margin: auto;
-}
-
-.navmen {
   margin: auto;
 }
 
