@@ -22,7 +22,7 @@ h1 {
 }
 
 .navbar-light .navbar-nav .active>.nav-link  {
-  color: rgba(0,0,0,.75);
+  color: #0000007e;
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover  {
