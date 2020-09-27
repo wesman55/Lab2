@@ -1,0 +1,125 @@
+img {
+  width: 100%;
+}
+
+.logo {
+  justify-content: center;
+  margin-top: 10px;
+  width: 25%;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.navmen {
+  margin: auto;
+}
+
+footer {
+  background-color: #F6F6F6;
+  border-top: 5px solid #000000;
+  border-right: 5px solid #000000;
+  border-left: 5px solid #000000;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+#menu {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 12pt;
+  margin-right: 40px;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+
+h1 {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  border: 5px solid #000000;
+  margin-top: 20px;
+}
+
+.description {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  background-color: #F6F6F6;
+  border: 5px solid #000000;
+  text-align: center;
+  margin: 20px;
+}
+p {
+  margin: 10px;
+}
+
+.box{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.services-grid {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+@media screen and (max-width: 960px) {
+  h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  p {
+    font-size: 18pt;
+  }
+  .title {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
