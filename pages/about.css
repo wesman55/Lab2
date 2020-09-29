@@ -170,6 +170,11 @@ nav {
 
   .flex-item {
     margin: 20px;
+    margin-top:0;
+  }
+
+  .description:first-child {
+    margin-top:0;
   }
 
   .container img {
