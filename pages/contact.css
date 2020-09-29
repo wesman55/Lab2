@@ -138,6 +138,10 @@ nav {
   .part-one h3 {
     font-size: 1.5em;
   }
+  
+  h2 {
+    font-size:1.5em;
+  }
 
   #menu {
     padding-left:0;
