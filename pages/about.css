@@ -148,7 +148,7 @@ p {
 }
 
 .flex-item-bg {
-  width: 55%;
+  width: 58%;
 }
 
 nav {
@@ -190,9 +190,11 @@ nav {
     margin-top: 20px;
     border-top:solid;
   }
-
-  h3 {
-    font-size: 2em;
+  .part-one h3 {
+    font-size: 1.5em;
+  }
+  #menu {
+    padding-left:0;
   }
 }
 
