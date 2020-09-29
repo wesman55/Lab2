@@ -1,5 +1,7 @@
 img {
   width: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .navbar-brand img{
@@ -77,7 +79,7 @@ li a {
   text-align: center;
   padding: 8px 10px;
   text-decoration: none;
-  font-size: 12pt;
+  /*font-size: 12pt;*/
   margin-right: 40px;
 }
 
@@ -94,8 +96,7 @@ h1 {
   text-align: center;
   padding: 10px;
   border: 5px solid #000000;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 10px;
 }
 
 .words {
@@ -104,12 +105,9 @@ h1 {
   border: 5px solid #000000;
   text-align: center;
 }
+
 p {
   margin: 10px;
-}
-
-.size {
-  width: 50%;
 }
 
 .words-2 {
@@ -124,15 +122,11 @@ p {
   background-color: #F6F6F6;
   border: 5px solid #000000;
   text-align: center;
-  margin-right: 20px;
-}
-
-.short {
-  height: 600px;
-  width: 40%
+  margin: 0px 20px;
 }
 
 .container {
+  display: flex;
   justify-content: center;
 }
 
@@ -142,13 +136,63 @@ p {
   text-align: center;
 }
 
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  /*margin-top: 0px;*/
+  /*justify-content: center;*/
+}
+
+.flex-item-sm{
+  width: 40%;
+}
+
+.flex-item-bg {
+  width: 55%;
+}
+
+nav {
+  border-bottom:solid;
+}
+
+
 @media only screen and (max-width: 990px) {
   li a {
     margin-right:0;
   }
+  .flex-item-sm{
+    width: 100%;
+  }
+  
+  .flex-item-bg {
+    width: 100%;
+  }
 
-  nav li:first-child {
-    margin-left:0;
+  .flex-item {
+    margin: 20px;
+  }
+
+  .container img {
+    margin: 20px;
+  }
+  .words, .words-2, .words-3, .contact, .part-two, .footer, .nav-link, .part-one{
+    font-size: 2.5em;
+  }
+  .navbar-brand img{
+    height: 140px !important;
+  }
+  .navbar-toggler-icon{
+    height:80px;
+    width:80px;
+  }
+  nav li:first-child{
+    margin-left: 0;
+    margin-top: 20px;
+    border-top:solid;
+  }
+
+  h3 {
+    font-size: 2em;
   }
 }
 
@@ -156,12 +200,6 @@ p {
   .title {
     margin-left: 250px;
     margin-right: 250px;
-  }
-  .description {
-    display: flex;
-    flex: wrap;
-    margin: 30px;
-    margin-top: 0px;
   }
   .mo {
     display: flex;
@@ -189,5 +227,9 @@ p {
     margin-right: 300px;
     margin-left: 300px;
     margin-bottom: 50px;
+  }
+
+  .description {
+    margin:30px;
   }
 }
